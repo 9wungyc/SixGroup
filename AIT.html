@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scholarship</title>
+<link rel="stylesheet" href="AIT.css">
+</head>
+<body>
+
+
+
+
+
+<section class="container">
+    <div class="content">
+      <div class="title">
+        <script src="AIT1.js"></script>
+  <img src="photo_2025-08-22_23-48-30.jpg" alt="AIT logo" class="logo">
+  <h1 class="title-text">
+    <span>Asian Institute of</span>
+    <span>Technology <strong>Thailand</strong></span>
+  </h1>
+</div>
+        <ul type ="square">
+        <h2><li> <b>AIT</b> is an international postgraduate institution offering Master's and Doctoral programs in English.</li>
+            <br>
+<li> It attracts students from over 50 countries, specializing in Engineering, Environment, Resources, 
+    Development, and Management.</li><br>
+<li> <b>AIT</b> focuses on research in climate change, smart communities, food-energy-water systems, and sustainability, and is recognized with global
+     awards for excellence.</li></h2><br>
+</ul>
+        <a href="https://www.ait.ac.th" class="btn">Official Website →</a>
+    </div>
+    
+
+
+    <div class="right-section  ">
+<div class="image-wrapper">
+<div style="display:flex; align-items:center; gap:24px; margin:24px;">
+    <figure class="img-wrap">
+      <div class="img1 img ">
+      <img id="imgLogo" class="click-img " src="photo_2025-08-22_21-32-46.jpg" alt="AIT Logo" height="250"width="150"/></div>
+     
+      
+    </figure>
+
+    <figure class="img-wrap">
+
+    <div class="img2 img">
+      <img id="imgCampus" class="click-img image img2" src="photo_2025-08-22_21-32-38.jpg" alt="AIT Campus" height="250" width="150"/>
+      </div>
+    </figure></div>
+  </div>
+
+  <script>
+    // ပုံတွေကို ကြိုတင် preload လုပ်ပေးမယ် (အမြန်ပြောင်းဖို့)
+    function preload(srcs) {
+      srcs.forEach(src => { const i = new Image(); i.src = src; });
+    }
+
+    // ပုံအစု (သင့်ပုံလမ်းကြောင်းနဲ့ အလိုအလျောက်ပြောင်းနိုင်)
+    const logoImages = [
+      "photo_2025-08-22_21-20-00.jpg",
+      "photo_2025-08-22_21-40-06.jpg"
+      // အခြားပုံတွေရှိရင် ဆက်ထည့်ပါ: "assets/img/ait-logo-3.png",
+    ];
+
+    const campusImages = [
+      "photo_2025-08-22_21-19-46.jpg",
+      "photo_2025-08-22_21-40-15.jpg"
+      // လိုရင် ဆက်ထည့်: "assets/img/ait-campus-3.jpg",
+    ];
+
+    preload(logoImages);
+    preload(campusImages);
+
+    // ပုံပြောင်း logic
+    function setupImageCycler(imgEl, images) {
+      let idx = 0;
+
+      imgEl.addEventListener("click", () => {
+        idx = (idx + 1) % images.length;
+        // fade-out → src ပြောင်း → fade-in
+        imgEl.style.opacity = 0.2;
+        setTimeout(() => {
+          imgEl.src = images[idx];
+          imgEl.style.opacity = 1;
+        }, 120);
+      });
+    }
+
+    // HTML ထဲက ပုံ element နှစ်ခုနဲ့ ချိတ်ဆက်
+    setupImageCycler(document.getElementById("imgLogo"),   logoImages);
+    setupImageCycler(document.getElementById("imgCampus"), campusImages);
+  </script>
+
+       
+</section>
+<br>
+
+
+
+
+<section class="boodyy">
+<div class="section-title ">
+    
+    <h1 >  <span>Types of scholarship For Leaners</span></h1>
+      </div>
+
+  <div class="cards">
+    <div class="card card1">
+      <div class="icon"><img src="photo_2025-08-30_14-21-47.jpg" alt="photo" class="circle-img"></div>
+      <h3>Royal Thai Govenment Scholarships</h3>
+      <p>Fully funded Master's and PhD scholarships for outstanding Asian students to in Engineering,Management and Environment at AIT.</p>
+          </div>
+
+    <div class="card card2">
+      <div class="icon"><img src="photo_2025-08-30_14-22-27.jpg" alt="photo" class="circle-img"></div>
+      <h3>AIT Scholarship</h3>
+      <p>Internal scholarships automatically considered upon application; may cover part or full tution based on academic excellence.</p>
+          </div>
+
+    <div class="card card3">
+      <div class="icon"><img src="photo_2025-08-30_14-22-24.jpg" alt="photo" class="circle-img"></div>
+      <h3>KAAD-AIT Scholarship</h3>
+      <p>Partial fellowship(tution, monthly, stipend, housing) for Master's and Doctoral students from CLMV and Timor-Leste; includes service obligation to return home.</p>
+         </div>
+
+    <div class="card card4">
+      <div class="icon"><img src="photo_2025-08-30_14-22-21.jpg" alt="photo" class="circle-img"></div>
+      <h3>UMG Scholarship</h3>
+      <p>Covers 24 credits and four semester's tuition / registration fees for Myanmar or Indonesian students in selected Engineering Programs, with a post-graduation job opportunity.</p>
+          </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="containers bodys">
+    <!-- Left Images -->
+    <div class="images image-container">
+      <img src="8 Ways to Promote a Business Online  - jeffbullas_com.jpg " alt="Work 1">
+      <img src="photo_2025-08-30_10-12-29.jpg" alt="Work 2">
+      <img src="photo_2025-08-30_10-12-33.jpg" alt="Work 3">
+    </div>
+
+    <!-- Right Content -->
+    <div class="contents">
+      <div class="title-box">
+     Required Qualifications</div>
+      <p>
+        <h1 >For Master's Degree</h1>
+  <ul  class="custom-svg-list">
+  <li>Must have already completed BE(Bachelor of Engineering) degree at University.</li>
+  <li>IELTS : 5.0</li>
+  <li>AIT English Entrance Test(EET) : over 5.0</li>
+  <li>GPA : 2.75</li>
+  </ul><br>
+  <h1 >For Doctorate(Ph.D.)</h1>
+  <ul class="custom-svg-list">
+  <h2><li>Must have completed a Master's (ME /MSC) degree at University.</li></h2>
+  <li>IELTS : 5.5</li>
+  <li>AIT English Entrance Test(EET) : over 5.5</li>
+  <li>GPA : 3.5</li>
+  <li>A research proposal must be submitted to the university.</li></h2>
+  </ul>
+      </p>
+          </div>
+  </section>
+
+
+
+
+
+
+
+<section class="bodyy infographic">
+  <ul class="steps">
+    <li class="step step1">
+      <div class="circle"></div>
+    </li>
+    <li class="step step2">
+      <div class="circle"></div>
+    </li>
+    <li class="step step3">
+      <div class="circle"></div>
+    </li>
+  </ul>
+  <script src="AIT2.js"></script>
+  <div class="infographic">
+    <!-- Main Circle -->
+    <div class="main-circle">
+      <h2>
+        <strong>3 steps</strong> <em>infographic</em> elements
+      </h2>
+      <div class="dots">
+        <span class="dot yellow"></span>
+        <span class="dot orange"></span>
+        <span class="dot pink"></span>
+      </div>
+    </div>
+
+    <!-- Steps -->
+    <div class="steps">
+
+      <!-- Step 1 -->
+      <div class="step step1">
+        <span class="line1 yellow-line"></span>
+        <div class="circle-stack yellow">
+          <div class="circle"><i>💡</i></div>
+        </div>
+        <div class="content">
+          <h2>For Master's</h2>
+          <p>Scholarship Amount : 1,100,000 THB / year (71,500,000 MMK)</p>
+        </div>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="step step2">
+        <span class="line2 orange-line"></span>
+        <div class="circle-stack orange">
+          <div class="circle"><i>🔍</i></div>
+        </div>
+        <div class="content">
+          <h2>For Doctorate(Ph.D.)</h2>
+          <p>Scholarship Amount : 1,960,000 THB / year (127,400,000 MMK)</p>
+        </div>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="step step3">
+        <span class="line3 pink-line"></span>
+        <div class="circle-stack pink">
+          <div class="circle"><i>⏰</i></div>
+        </div>
+        <div class="content">
+          <h2>Duration of Programs</h2>
+          <ul type="square">
+          <li>Master's : 22-24 months </li>
+            <li>PhD      : 41 months</li>
+           
+        </ul>
+         <div class="title-box">
+     Deadline for January 2026 Intake: 20 December 2025</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+  
+</section>
+
+
+
+
+<section class="promo-banner">
+    <div class="banner-image">
+      <img src="photo_2025-08-31_01-37-30.jpg" alt="Promo Image">
+    </div>
+    <div class="banner-content">
+      <h1>Where can you <span class="span"> apply</span> for the scholarship?</h1>
+      <p>
+       <ul >
+
+<li>
+<ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+<h2 class="span">Website: <a href="https://www.ait.ac.th">https://www.ait.ac.th</a></h2>
+</li>
+</ul>
+      </p>
+          </div>
+  </section>
+
+
+</body>
+</html>
